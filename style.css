@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.banAdb {
+  padding-top: 50px;
+}
+body div {
+  background-color: #f7f7f7;
+  padding-left: 20px;
+}
+
+header {
+  width: 100%;
+  background: #f1efef;
+  /* 메뉴 백그라운드 컬러 */
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+header ul li {
+  list-style: none;
+  position: relative;
+  padding: 10px 0;
+  transition: 0.5s;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #58378d;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+header ul li:last-child {
+  border-right: 1px solid none;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+header ul li ul {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: #ccc;
+  display: block;
+  width: 300px;
+  transition: 0.5s;
+  border-color: black;
+  /* margin-right: px; */
+}
+
+header ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+header ul li:hover {
+  background: #2196;
+}
+/* 
+header ul li ul li {
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header ul li ul li ul li {
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header ul li ul li ul {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: #ccc;
+  display: block;
+  width: 200px;
+  transition: 0.5s;
+} */
+
+.mainImg {
+  width: 100%;
+  max-width: auto;
+  max-height: auto;
+}
+/* 
+header ul li {
+  list-style: none;
+  position: relative;
+  padding: 10px 0;
+  transition: 0.5s;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+header ul li ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+header ul li ul li ul {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: #ccc;
+  display: block;
+  width: 200px;
+  transition: 0.5s;
+}
+header ul li ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+header ul li ul li:hover {
+  background: #2196;
+} */
